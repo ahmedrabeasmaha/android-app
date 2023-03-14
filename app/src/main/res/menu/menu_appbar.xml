@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflow_menu"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="@string/show_menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/nav_webView"
+                android:icon="@drawable/baseline_page_view_24"
+                android:title="@string/view_web_page"/>
+            <item
+                android:id="@+id/nav_shareLocation"
+                android:icon="@drawable/baseline_share_location_24"
+                android:title="@string/share_location" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/baseline_call_24"
+                android:title="@string/make_call" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="@string/share"/>
+        </menu>
+    </item>
+
+
+</menu>
